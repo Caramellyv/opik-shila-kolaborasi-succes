@@ -54,3 +54,4 @@ function luasSegitiga(alas, tinggi) {
   
      // cetak hasil
   console.log(luas); // hasil: 12
+  console.log("shila mau ke bandung")
