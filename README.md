@@ -1,4 +1,3 @@
-Thanks for all ur time..
 I hope you and me meet again and collaborate in the best version of ourselves.
 
 -shilla always for u.
