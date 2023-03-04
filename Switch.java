@@ -16,6 +16,16 @@ public class Switch {
             case "JavaScript" : 
                 System.out.println("Welcome To JavaScript ");
                 break; 
-        }        
+            case "Golang" :
+                 System.out.println("Welcome to Golang");
+                break;
+            case "Dart" :
+                 System.out.println("Welcome to Dart ");   
+                break;  
+            case "C++" :
+                  System.out.println("Welcome to C++ ");  
+                break;   
+        }  
+        System.out.println("End Program----Thank you----");             
     }    
 }
