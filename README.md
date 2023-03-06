@@ -8,7 +8,7 @@ I will do my best, and god do the rest.
 
 Let's code!
 
-Shilla as Front-End Developer
+Shilla as Front-End Developer <br>
 Taufik as Back-End Developer
 
 LinkedIn:
