@@ -1,4 +1,3 @@
-package Work17_20;
 import java.awt.*;
 import java.applet.*;
 public class DrawShapes extends Applet{
@@ -52,29 +51,28 @@ public class DrawShapes extends Applet{
         //This will fill a rectangle
         graph.fillRect(50, 50, 60, 60);
     }
-    class A{
+     static class A{
         void callthis(){
             System.out.println("Inside Class A's Method!");
         }
     }
-    class B extends A {
+    static class B extends A {
         void callthis(){
             System.out.println("Inside Class B's Method!");
         }
     }
-    class C extends A{
+    static class C extends A{
         void callthis(){
             System.out.println("Inside Class C's Method!");
         }
     }
-    class DynamicDispatch {
         public static void main(String[] args) {
             A a = new A();
             B b = new B();
             C c = new C();
             A ref;
             
-            ref =b:
+            ref =b;
             ref.callthis();
             
             ref =c;
@@ -83,7 +81,9 @@ public class DrawShapes extends Applet{
             ref =a;
             ref.callthis();          
         }
-    }
+}
+   
+    
     public class Animal {
         public void makeNoise() {
             System.out.println("talk");
@@ -112,8 +112,4 @@ public class DrawShapes extends Applet{
         System.out.pirntln("animal is Dog");
     
 
-    private void setBackground(Color backgroundColor) {
-        throw new UnsupportedOperationException(""); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
     
-}
